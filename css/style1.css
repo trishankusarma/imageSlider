@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-image:radial-gradient(lightgreen,lightyellow);
+}
+h1{
+	padding:5vh;
+	text-align:center;
+}
+.carasel-container{
+	width:75vw;
+	margin:auto;
+	margin-top:8vh;
+	border:5px solid black;
+	position:relative;
+	overflow:hidden;
+	border-radius:5px;
+	box-shadow:2px 0px 5px 3px lightyellow;
+}
+.carasel-slider{
+	display:flex;
+	width:100%;
+	height:420px;
+}
+#previous{
+	height:30px;
+	width:40px;
+	position:absolute;
+	margin-top:-210px;
+	margin-left:1vw;
+	opacity:0.5;
+}
+#next{
+	height:30px;
+	width:40px;
+	opacity:0.5;
+	position:absolute;
+	margin-top:-210px;
+	margin-left:69.5vw;
+}
+.intro{
+	width:100vw;
+	height:10vh;
+	padding-top:15px;
+	font-size:130%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
